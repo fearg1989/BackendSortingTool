@@ -58,15 +58,65 @@ Content-Type: application/json
 
 ```json
 [
-  {
-    "id": 1,
-    "name": "Producto A",
-    "salesUnits": 100,
-    "stockBySize": {
-      "S": 10,
-      "M": 5,
-      "L": 2
+    {
+        "id": 4,
+        "name": "PLEATED T-SHIRT",
+        "salesUnits": 3,
+        "stockBySize": {
+            "S": 25,
+            "M": 30,
+            "L": 10
+        }
+    },
+    {
+        "id": 2,
+        "name": "CONTRASTING FABRIC T-SHIRT",
+        "salesUnits": 50,
+        "stockBySize": {
+            "S": 35,
+            "M": 9,
+            "L": 9
+        }
+    },
+    {
+        "id": 3,
+        "name": "RAISED PRINT T-SHIRT",
+        "salesUnits": 80,
+        "stockBySize": {
+            "S": 20,
+            "M": 2,
+            "L": 20
+        }
+    },
+    {
+        "id": 6,
+        "name": "SLOGAN T-SHIRT",
+        "salesUnits": 20,
+        "stockBySize": {
+            "S": 9,
+            "M": 2,
+            "L": 5
+        }
+    },
+    {
+        "id": 1,
+        "name": "V-NECH BASIC SHIRT",
+        "salesUnits": 100,
+        "stockBySize": {
+            "S": 4,
+            "M": 9,
+            "L": 0
+        }
+    },
+    {
+        "id": 5,
+        "name": "CONTRASTING LACE T-SHIRT",
+        "salesUnits": 650,
+        "stockBySize": {
+            "S": 0,
+            "M": 1,
+            "L": 0
+        }
     }
-  }
 ]
 ```
