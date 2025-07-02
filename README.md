@@ -39,3 +39,34 @@ docs/postman/BackendSortingTool.postman_collection.json
 
 ## JaCoco Report
 target/site/jacoco/index.html
+
+### Ejemplo de Request
+
+```json
+POST /api/products/sort
+Content-Type: application/json
+
+{
+  "weights": {
+    "salesUnits": 0.1,
+    "stockRatio": 10
+  }
+}
+```
+
+### Ejemplo de Response
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Producto A",
+    "salesUnits": 100,
+    "stockBySize": {
+      "S": 10,
+      "M": 5,
+      "L": 2
+    }
+  }
+]
+```
