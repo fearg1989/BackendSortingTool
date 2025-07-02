@@ -23,7 +23,7 @@ public class ProductEntity {
     private String name;
     private int salesUnits;
     @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(name = "product_stock_by_size")
+    @CollectionTable(name = "products_stock_by_size")
     @MapKeyColumn(name = "size")
     private Map<String, Integer> stockBySize;
 }
